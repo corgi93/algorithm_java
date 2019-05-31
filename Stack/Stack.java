@@ -141,6 +141,7 @@ public class Stack {
 
 			}
 			if (menu == 5) {
+				stdIn.close();
 				break;
 			}
 
