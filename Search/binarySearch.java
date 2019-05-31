@@ -12,12 +12,13 @@ class Searching{
 			if(arr[i] == key){
 				foundValue = arr[i];
 				idx = i;
+				isfound = true;
                 
                 System.out.println(foundValue + "값은 " + idx + "번째 인덱스에 있습니다.");
 				break;
             }
 		}
-      	if(isfound){
+      	if(isfound == false){
         	System.out.println("해당 값은 찾을 수 없습니다.");
       	}
 	}
