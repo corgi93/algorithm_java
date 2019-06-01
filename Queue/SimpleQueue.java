@@ -1,4 +1,3 @@
-
 import java.util.*;
 
 /*
@@ -9,7 +8,7 @@ import java.util.*;
  getSize - 현재 큐의 데이터들의 사이즈
  empty - 큐가 비어있나 확인
  */
-public class SimpleQueue {
+public class QueueExam {
 
 	// Queue클래스
 	static class Queue {
@@ -71,7 +70,7 @@ public class SimpleQueue {
 
 		// 큐의 사이즈.
 		public void getSize() {
-			System.out.println("Queue's size : "+ queueSize);
+			System.out.println("Queue's size : " + queueSize);
 		}
 
 		public void empty() {
@@ -108,7 +107,8 @@ public class SimpleQueue {
 			} else if (menu == 6) {
 				q.empty();
 			} else {
-				System.out.println("1~6 사이의  기능을 입력하세요.");
+				stdIn.close();
+				break;
 			}
 		}
 
